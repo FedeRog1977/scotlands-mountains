@@ -1,4 +1,4 @@
 /Users/lewis-britton/scotlands-mountains/src/main/java/com/example/springboot/Application.java
 /Users/lewis-britton/scotlands-mountains/src/main/java/com/example/springboot/controller/Controller.java
 /Users/lewis-britton/scotlands-mountains/src/main/java/com/example/springboot/model/Hill.java
-/Users/lewis-britton/scotlands-mountains/src/main/java/com/example/springboot/repository/HillRepo.java
+/Users/lewis-britton/scotlands-mountains/src/main/java/com/example/springboot/repository/HillRepository.java

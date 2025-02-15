@@ -5,9 +5,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "munros")
 public class Hill {
-  @Id
-  private String id;
+  // @Id
+  // private String id;
   
+  @Id
   private String name;
   private String lat;
   private String lon;
@@ -18,7 +19,7 @@ public class Hill {
   private String summit;
 
   public Hill(
-    String id,
+    // String id,
     String name,
     String lat,
     String lon,
@@ -29,7 +30,7 @@ public class Hill {
     String summit
 ) {
     super();
-    this.id = id;
+    // this.id = id;
     this.name = name;
     this.lat = lat;
     this.lon = lon;
@@ -40,13 +41,13 @@ public class Hill {
     this.summit = summit;
   }
   
-  public String getId() {
-    return id;
-  }
+  // public String getId() {
+  //   return id;
+  // }
   
-  public void setId(String id) {
-    this.id = id;
-  }
+  // public void setId(String id) {
+  //   this.id = id;
+  // }
 
   public String getName() {
     return name;
