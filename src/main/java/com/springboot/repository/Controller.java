@@ -1,11 +1,11 @@
-package com.example.springboot.repository;
+package com.springboot.repository;
 
 import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.springboot.model.Hill;
+import com.springboot.model.Hill;
 
 @RestController
 public class Controller {
