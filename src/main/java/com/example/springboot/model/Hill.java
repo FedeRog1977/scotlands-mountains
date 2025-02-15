@@ -1,9 +1,9 @@
-package com.springboot.model;
+package com.example.springboot.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document("Hill")
+@Document(collection = "munros")
 public class Hill {
   @Id
   private String id;
